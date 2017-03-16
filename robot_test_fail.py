@@ -3,7 +3,8 @@ import time
 
 
 def test_fail_func(cloudshell_reservation_id, cloudshell_server_address, cloudshell_port, cloudshell_username, cloudshell_password, cloudshell_domain, cloudshell_reservation_json):
-    print('hello from ericr_dev')
+    print('hello from latest on master branch')
+    print('')
     print('CloudShell reservation id: %s' % cloudshell_reservation_id)
     print('CloudShell server address: %s' % cloudshell_server_address)
     print('CloudShell port: %d' % int(cloudshell_port))
