@@ -11,4 +11,4 @@ def test1_func(cloudshell_reservation_id, cloudshell_server_address, cloudshell_
     print('CloudShell admin password: %s' % '(hidden)')
     print('CloudShell domain: %s' % cloudshell_domain)
     print('CloudShell reservation details: %s' % cloudshell_reservation_json)
-    time.sleep(random.randint(5, 30))
+    time.sleep(random.randint(5, 10))

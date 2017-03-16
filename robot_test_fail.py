@@ -11,5 +11,5 @@ def test_fail_func(cloudshell_reservation_id, cloudshell_server_address, cloudsh
     print('CloudShell admin password: %s' % '(hidden)')
     print('CloudShell domain: %s' % cloudshell_domain)
     print('CloudShell reservation details: %s' % cloudshell_reservation_json)
-    time.sleep(random.randint(5, 30))
+    time.sleep(random.randint(5, 10))
     raise Exception('Intentionally throwing an exception from Robot Python test')
